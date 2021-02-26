@@ -10,3 +10,4 @@ __pycache__
 
 data/acousticData/2017_2019/EV
 data/physicalData
+!data/physicalData/*.ipynb
