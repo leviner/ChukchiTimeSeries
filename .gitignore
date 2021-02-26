@@ -3,11 +3,11 @@
 *.raw.evi
 *.idx
 *ffs_db
+*.rdat
+*.nc
 
 dask-worker-space
 __pycache__
 .ipynb_checkpoints
 
 data/acousticData/2017_2019/EV
-data/physicalData
-!data/physicalData/*.ipynb
