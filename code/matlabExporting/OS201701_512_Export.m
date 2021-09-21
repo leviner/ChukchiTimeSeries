@@ -132,7 +132,7 @@ files = dir([EVFilePath '*0-.ev']);
 files.name
 
 % loop -- select each file, open file, find variable to export
-for i = 28:size(files,1);
+for i = [3]%,10,15]%28:size(files,1);
     disp(['Working on File ' num2str(i) ' of ' num2str(size(files,1))])
     %  create the EV COM object "EvApp"
     EvApp = actxserver('EchoviewCom.EvApplication'); 
